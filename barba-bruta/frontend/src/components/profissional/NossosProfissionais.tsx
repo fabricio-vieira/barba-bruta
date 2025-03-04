@@ -11,7 +11,7 @@ export default function NossosProfissionais() {
         secundario="Só os mais brabos estão aqui! Temos o orgulho de ter o melhor time de profissionais da região."
       />
 
-      <div className="justify-center grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-4 bg-zinc-900">
+      <div className="justify-center grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-4">
         {profissionais.map((profissional) => (
           <ItemProfissional profissional={profissional} />
         ))}

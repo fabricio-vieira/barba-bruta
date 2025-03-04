@@ -29,4 +29,10 @@ body {
     @apply bg-gradient-to-r from-white to-zinc-400;
     @apply text-transparent bg-clip-text;
   }
+
+  .botao {
+    @apply rounded-md bg-gradient-to-r from-green-500 to-green-600;
+    @apply hover:bg-gradient-to-r hover:from-green-600 hover:to-green-700 px-5 py-2;
+    @apply text-white font-bold text-lg;
+  }
 }
